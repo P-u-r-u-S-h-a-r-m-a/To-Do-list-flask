@@ -1,0 +1,61 @@
+
+body
+{
+    font: small-caption;
+    background-color:whitesmoke;
+}
+h1{
+        text-align: center;
+    }
+    .input-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+    }
+    #input-todo{
+        width: 250 px;
+        height: 25px;
+        font-size: 1.25rem;
+        background-color:beige;
+        font-size:1.25rem;
+        
+    }
+    #add-todo{
+        width: 40 px;
+        height: 40px;
+        border: none;
+        background-color:lightblue;
+        cursor: pointer;
+    }
+    .todo-container{
+    
+        width: 80vw; 
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .todo{
+        background-color:gainsboro;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 10px;
+        align-items: center;
+        border-radius: 20px;
+        font-size: 1.2rem;
+
+    }
+    .actionsform{
+        display: inline;
+    }
+    .actions>form>button{
+        font-family: 'Courier New', Courier, monospace;
+        background-color: gray;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
+        border: radius 10px;
+
+
+    }
